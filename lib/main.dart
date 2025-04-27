@@ -1,5 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:vegetable_app/bottomnav.dart';
+import 'package:vegetable_app/cartpage.dart';
+import 'package:vegetable_app/orderorder.dart';
 import 'package:vegetable_app/starter.dart';
+import 'package:vegetable_app/trial.dart';
 
 void main() {
   runApp(const MyApp());
@@ -8,9 +12,8 @@ void main() {
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
-  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(debugShowCheckedModeBanner: false, home: DeliveryPage());
+    return MaterialApp(debugShowCheckedModeBanner: false, home: Barbershop());
   }
 }
